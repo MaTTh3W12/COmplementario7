@@ -21,6 +21,8 @@ export default function Navigation() {
 
                     return <Icon name={iconName} size={size} color={color} />;
                 },
+                tabBarActiveTintColor: 'green',
+                tabBarInactiveTintColor: 'gray',
             })}
         >
             <Tab.Screen name="Perros" component={Home} />
